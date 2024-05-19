@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" data-target="header">home</a></li>
+                <li><a href="#" data-target="about">about</a></li>
+                <li><a href="#" data-target="projects">projects</a></li>
+                <li><a href="#" data-target="experience">experience</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="header" class="section active">
         <div class="container">
-            <nav>
-                <ul>
-                    <li><a href = "#header">home</a></li>
-                    <li><a href = "#about">about</a></li>
-                    <li><a href = "#">projects</a></li>
-                    <li><a href = "#">experience</a></li>
-                </ul>
-            </nav>
             <div class="header-text">
                 <h1>Hello! My name is Gillian Palmer, and I am studying Computer Science at Northeastern University.</h1>
                 <a href="https://www.linkedin.com/in/gillianpalmer1/">
@@ -32,8 +34,8 @@
         </div>
     </div>
 
-    <!------------ about ------------>>
-    <div id="about">
+    <!------------ about ------------>
+    <div id="about" class="section">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
@@ -54,9 +56,50 @@
         </div>
     </div>
 
-    <!--
-        experience section: mathnasium, knack, cosmo
-        projects section: seam carver, maze game, husky laundry, hackbeanpot
-    -->
+    <!------------ projects ----------->
+    <div id="projects" class="section">
+        <div class="container">
+            <div class="oasis">
+                <p>Husky Laundry</p>
+            </div>
+            <div class="seamCarver">
+                <p>Seam Carver</p>
+            </div>
+            <div class="maze">
+                <p>Maze Game</p>
+            </div>
+            <div class="hackbeanpot">
+                <p>Productivity Under the Sea</p>
+            </div>
+        </div>
+    </div>
+
+    <!------------ experience ----------->
+    <div id="experience" class="section">
+        <div class="container">
+            <div class="mathnasium">
+                <p>Mathnasium</p>
+            </div>
+            <div class="cosmo">
+                <p>CoSMO</p>
+            </div>
+            <div class="knack">
+                <p>Knack</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                document.querySelectorAll('.section').forEach(section => {
+                    section.classList.remove('active');
+                });
+                const targetSection = this.getAttribute('data-target');
+                document.getElementById(targetSection).classList.add('active');
+            });
+        });
+    </script>
 </body>
 </html>
