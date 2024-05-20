@@ -165,7 +165,132 @@ nav ul li a:hover {
     height: 100vh;
     padding-top: 100px;
     padding-left: 40px;
+    padding-right: 40px;
 }
+
+.box1, .box2, .box3, .box4 {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 200px;
+    position: relative;
+}
+
+.box1 p, .box2 p, .box3 p, .box4 p {
+    padding-bottom: 10px;
+}
+
+.dropdown-content {
+    padding: 5px;
+    display: none;
+    border-top: 1px solid #ddd;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+    height: auto;
+}
+
+.box1:hover .dropdown-content,
+.box2:hover .dropdown-content,
+.box3:hover .dropdown-content,
+.box4:hover .dropdown-content {
+    display: block;
+}
+
+.laundryGithubButton {
+    color: black;
+    background-color: #ccc9cd;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.laundryDemoButton {
+    color: black;
+    background-color: #ccc9cd;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.mazeGithubButton {
+    color: black;
+    background-color: #ccc9cd;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.mazeDemoButton {
+    color: black;
+    background-color: #ccc9cd;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.carverGithubButton {
+    color: black;
+    background-color: #ccc9cd;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.carverDemoButton {
+    color: black;
+    background-color: #ccc9cd;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.beanpotGithubButton {
+    color: black;
+    background-color: #ccc9cd;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.beanpotDemoButton {
+    color: black;
+    background-color: #ccc9cd;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.beanpotSlidesButton {
+    color: black;
+    background-color: #ccc9cd;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.laundryGithubButton a, .laundryDemoButton a,
+.mazeGithubButton a, .mazeDemoButton a,
+.carverGithubButton a, .carverDemoButton a,
+.beanpotGithubButton a, .beanpotDemoButton a, .beanpotSlidesButton
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.laundryGithubButton a:hover, .laundryDemoButton a:hover,
+.mazeGithubButton a:hover, .mazeDemoButton a:hover,
+.carverGithubButton a:hover, .carverDemoButton a:hover,
+.beanpotGithubButton a:hover, .beanpotDemoButton a:hover, .beanpotSlidesButton a:hover {
+    color: rgb(255, 255, 255);
+}
+
 
 /* ---------- experience ---------- */
 #experience {
@@ -173,4 +298,5 @@ nav ul li a:hover {
     height: 100vh;
     padding-top: 100px;
     padding-left: 40px;
+    padding-right: 40px;
 }
