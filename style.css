@@ -32,6 +32,9 @@ nav {
     top: 0;
     z-index: 1000;
 }
+nav ul {
+    align-items: center;
+}
 nav ul li {
     padding-right: 80px;
     display: inline-block;
