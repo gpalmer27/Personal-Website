@@ -57,10 +57,8 @@ nav ul li a:hover {
     }
 
     nav ul {
-        flex-direction: row;
         width: 100%;
         background-color: #ccc9cd;
-        align-items: center;
     }
 
     nav ul li {
@@ -68,7 +66,6 @@ nav ul li a:hover {
     }
 
     nav ul li a {
-        display: block;
         width: 100%;
     }
 }
