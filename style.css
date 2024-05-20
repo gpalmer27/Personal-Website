@@ -165,10 +165,25 @@ nav ul li a:hover {
     height: 100vh;
     padding-top: 80px;
 }
+.top, .bottom {
+    flex: 1;
+    min-width: 300px; 
+    margin: 10px; 
+}
+.projectsRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 /* ---------- experience ---------- */
 #experience {
     width: 100%;
     height: 100vh;
     padding-top: 80px;
+}
+.experienceRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
