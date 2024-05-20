@@ -60,13 +60,8 @@ nav ul li a:hover {
         flex-direction: column;
         width: 100%;
         background-color: #ccc9cd;
-        position: absolute;
         top: 80px;
         align-items: center;
-    }
-
-    nav ul.active {
-        display: flex;
     }
 
     nav ul li {
