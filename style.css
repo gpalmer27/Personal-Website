@@ -51,21 +51,6 @@ nav ul li a:hover {
     color: white;
 }
 
-@media (max-width: 10000px) {
-
-    nav ul {
-        width: 100%;
-        background-color: #ccc9cd;
-    }
-
-    nav ul li {
-        width: 100%;
-    }
-
-    nav ul li a {
-        width: 100%;
-    }
-}
 
 .header-text h1 {
     font-size: 60px;
