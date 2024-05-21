@@ -51,10 +51,7 @@ nav ul li a:hover {
     color: white;
 }
 
-@media (max-width: 768px) {
-    nav .menu-toggle {
-        display: flex;
-    }
+@media (max-width: 10000px) {
 
     nav ul {
         width: 100%;
