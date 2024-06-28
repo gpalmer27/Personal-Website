@@ -203,7 +203,7 @@ nav ul li a:hover {
     padding-right: 40px;
 }
 
-.box1, .box2, .box3, .box4 {
+.box1, .box2, .box3, .box4, .box5 {
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
@@ -214,7 +214,7 @@ nav ul li a:hover {
     position: relative;
 }
 
-.box1 p, .box2 p, .box3 p, .box4 p {
+.box1 p, .box2 p, .box3 p, .box4 p, .box5 p {
     padding-bottom: 10px;
 }
 
@@ -227,82 +227,22 @@ nav ul li a:hover {
 .box1:hover,
 .box2:hover,
 .box3:hover,
-.box4:hover {
+.box4:hover,
+.box5:hover {
     height: auto;
 }
 
 .box1:hover .dropdown-content,
 .box2:hover .dropdown-content,
 .box3:hover .dropdown-content,
-.box4:hover .dropdown-content {
+.box4:hover .dropdown-content,
+.box5:hover .dropdown-content {
     display: block;
 }
 
-.laundryGithubButton {
-    color: black;
-    background-color: #ccc9cd;
-    width: 150px;
-    height: 30px;
-    border-radius: 50px;
-}
-
-.laundryDemoButton {
-    color: black;
-    background-color: #ccc9cd;
-    width: 150px;
-    height: 30px;
-    border-radius: 50px;
-}
-
-.mazeGithubButton {
-    color: black;
-    background-color: #ccc9cd;
-    width: 150px;
-    height: 30px;
-    border-radius: 50px;
-}
-
-.mazeDemoButton {
-    color: black;
-    background-color: #ccc9cd;
-    width: 150px;
-    height: 30px;
-    border-radius: 50px;
-}
-
-.carverGithubButton {
-    color: black;
-    background-color: #ccc9cd;
-    width: 150px;
-    height: 30px;
-    border-radius: 50px;
-}
-
-.carverDemoButton {
-    color: black;
-    background-color: #ccc9cd;
-    width: 150px;
-    height: 30px;
-    border-radius: 50px;
-}
-
-.beanpotGithubButton {
-    color: black;
-    background-color: #ccc9cd;
-    width: 150px;
-    height: 30px;
-    border-radius: 50px;
-}
-
-.beanpotDemoButton {
-    color: black;
-    background-color: #ccc9cd;
-    width: 150px;
-    height: 30px;
-    border-radius: 50px;
-}
-
-.beanpotSlidesButton {
+.laundryGithubButton, .laundryDemoButton, .mazeGithubButton, .mazeDemoButton,
+.carverDemoButton, .carverGithubButton, .beanpotDemoButton, .beanpotGithubButton, 
+.beanpotSlidesButton, .stockDemoButton, .stockGithubButton {
     color: black;
     background-color: #ccc9cd;
     width: 150px;
@@ -313,8 +253,8 @@ nav ul li a:hover {
 .laundryGithubButton a, .laundryDemoButton a,
 .mazeGithubButton a, .mazeDemoButton a,
 .carverGithubButton a, .carverDemoButton a,
-.beanpotGithubButton a, .beanpotDemoButton a, .beanpotSlidesButton
-  a {
+.beanpotGithubButton a, .beanpotDemoButton a, .beanpotSlidesButton a, 
+.stockGithubButton a, .stockDemoButton a {
     color: black;
     text-decoration: none;
     font-size: 15px;
@@ -322,7 +262,8 @@ nav ul li a:hover {
 .laundryGithubButton a:hover, .laundryDemoButton a:hover,
 .mazeGithubButton a:hover, .mazeDemoButton a:hover,
 .carverGithubButton a:hover, .carverDemoButton a:hover,
-.beanpotGithubButton a:hover, .beanpotDemoButton a:hover, .beanpotSlidesButton a:hover {
+.beanpotGithubButton a:hover, .beanpotDemoButton a:hover, .beanpotSlidesButton a:hover,
+.stockDemoButton a:hover, .stockGithubButton a:hover {
     color: rgb(255, 255, 255);
 }
 
