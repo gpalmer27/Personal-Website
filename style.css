@@ -64,13 +64,6 @@ body {
         padding-top: 5%;
         margin-left: 20%;
     }
-
-    .about-col-1 img.aboutPhoto {
-        max-width: 40%;
-        max-height: 20%;
-        margin-left: 0;
-        margin-top: 2%;
-    }
   }
   @media (max-width: 1023px) and (min-width: 768px) {
     nav {
@@ -211,6 +204,20 @@ nav ul li a:hover {
 }
 
 /* ---------- about ---------- */
+@media (max-width: 767px) {
+    .about-col-1 img {
+        border-radius: 5%;
+        max-width: 20%;
+        max-height: 10%;
+    }
+    
+    .about-col-1 img.aboutPhoto {
+        max-width: 20%;
+        max-height: 10%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}
 
 #about {
     padding: 80px 0;
@@ -246,7 +253,7 @@ nav ul li a:hover {
     padding-top: 2%;
     font-size: 130%;
     padding-right: 1%;
-    padding-left: 1%;
+    padding-left: 2%;
     padding-bottom: 2%;
 }
 
@@ -264,6 +271,7 @@ nav ul li a:hover {
     width: 150px;
     height: 30px;
     border-radius: 50px;
+    margin-left: 2%;
 }
 
 /* ---------- projects ---------- */
