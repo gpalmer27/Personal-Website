@@ -33,7 +33,7 @@ nav {
     background-color: #ccc9cd;
     width: 100%;
     padding-left: 33%;
-    position: fixed;
+    position: absolute;
     top: 0;
     z-index: 1000;
 }
@@ -129,11 +129,11 @@ nav ul li a:hover {
 }
 .about-col-1, .about-col-2 {
     flex: 1;
-    min-width: 300px; 
-    margin: 10px; 
+    min-width: 30%; 
+    margin: 1%; 
 }
 .about-col-1 img {
-    border-radius: 50px;
+    border-radius: 5%;
 }
 
 .about-col-1 img.aboutPhoto {
@@ -143,10 +143,9 @@ nav ul li a:hover {
     margin-top: 5%;
 }
 .about-col-2 h1 {
-    font-size: 20px;
     margin-left: 25%;
     margin-top: 20%;
-    font-size: 40px;
+    font-size: 200%;
 }
 .row {
     display: flex;
@@ -154,10 +153,10 @@ nav ul li a:hover {
     flex-wrap: wrap;
 }
 .about-col-2 p {
-    padding-top: 10px;
+    padding-top: 1%;
     font-size: 20px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding-right: 1%;
+    padding-bottom: 1%;
 }
 
 .about-col-2 a {
@@ -171,8 +170,8 @@ nav ul li a:hover {
 .resumeButton {
     color: black;
     background-color: #ccc9cd;
-    width: 150px;
-    height: 30px;
+    width: 20%;
+    height: 3%;
     border-radius: 50px;
 }
 
