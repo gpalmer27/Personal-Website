@@ -207,14 +207,14 @@ nav ul li a:hover {
 @media (max-width: 767px) {
     .about-col-1 img {
         border-radius: 5%;
-        max-width: 20%;
-        max-height: 10%;
+        max-width: 10%;
+        max-height: 5%;
     }
     
     .about-col-1 img.aboutPhoto {
-        max-width: 20%;
-        max-height: 10%;
-        margin-left: 10%;
+        max-width: 10%;
+        max-height: 5%;
+        margin-left: 2%;
         margin-top: 5%;
     }
 }
