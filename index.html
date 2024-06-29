@@ -45,8 +45,8 @@
                 </div>
                 <div class="about-col-2">
                     <h1>About Me:</h1>
-                    <p>I'm a first-year at Northeastern pursuing a bachelor's degree in Computer Science with a minor in Mathematics. 
-                        In my spare time, I love spending time <br> with friends, running, and listening to music.</p>
+                    <p>I'm a first-year at Northeastern pursuing a bachelor's degree in <br>Computer Science with a minor in Mathematics. 
+                        In my spare time, <br>I love spending time with friends, running, and listening to music.</p>
                     <button type="button" class="resumeButton">
                         <a href="CurrentResume.pdf" target="blank" class = "resume">
                             View resume
@@ -199,6 +199,19 @@
                     </div>
                 </div>
         </div>
+        <script>
+            document.querySelectorAll('.box').forEach(box => {
+                box.addEventListener('click', function() {
+                    let dropdown = this.querySelector('.dropdown-content');
+                    if (dropdown.style.display === 'block') {
+                        dropdown.style.display = 'none';
+                    } else {
+                        dropdown.style.display = 'block';
+                    }
+                });
+            });
+         </script>
+            
     </div>
 
     <script>
