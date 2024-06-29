@@ -23,7 +23,7 @@ body {
     height: 100vh;
 
     place-items: center;
-    padding-top: 0;
+    padding-top: 80px;
 }
 
 
@@ -192,10 +192,10 @@ nav ul li a:hover {
 }
 
 /* ---------- about ---------- */
-@media only screen and (max-width: 600px) {
+@media (max-width: 767px) {
     .about-col-1 img.aboutPhoto {
-        max-width: 80%;
-        max-height: 40%;
+        max-width: 60%;
+        max-height: 30%;
         margin-left: 0;
         margin-top: 2%;
     }
