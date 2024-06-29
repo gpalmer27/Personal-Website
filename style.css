@@ -23,19 +23,52 @@ body {
     height: 100vh;
     padding-top: 80px;
 }
-nav {
-    height: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: #ccc9cd;
-    width: 100%;
-    padding-left: 33%;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-}
+
+@media (max-width: 767px) {
+    nav {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #ccc9cd;
+        width: 100%;
+        padding-left: 0;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+  }
+  @media (max-width: 1023px) and (min-width: 768px) {
+    nav {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #ccc9cd;
+        width: 100%;
+        padding-left: 33%;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+  }
+  @media (min-width: 1024px) {
+    nav {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #ccc9cd;
+        width: 100%;
+        padding-left: 33%;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+  }
 nav ul {
     display: flex;
     align-items: center;
@@ -128,7 +161,7 @@ nav ul li a:hover {
 }
 .about-col-1, .about-col-2 {
     flex: 1;
-    min-width: 30%; 
+    min-width: 300px; 
     margin: 1%; 
     
 }
@@ -170,8 +203,8 @@ nav ul li a:hover {
 .resumeButton {
     color: black;
     background-color: #ccc9cd;
-    width: 20%;
-    height: 3%;
+    width: 150px;
+    height: 30px;
     border-radius: 50px;
 }
 
