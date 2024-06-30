@@ -207,13 +207,13 @@ nav ul li a:hover {
 @media (max-width: 767px) {
     .about-col-1 img {
         border-radius: 5%;
-        max-width: 10%;
-        max-height: 5%;
+        max-width: 60%;
+        max-height: 30%;
     }
     
     .about-col-1 img.aboutPhoto {
-        max-width: 10%;
-        max-height: 5%;
+        max-width: 60%;
+        max-height: 30%;
         margin-left: 2%;
         margin-top: 5%;
     }
