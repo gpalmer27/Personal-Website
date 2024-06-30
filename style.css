@@ -218,6 +218,18 @@ nav ul li a:hover {
         margin-top: 5%;
     }
 }
+@media (min-width: 768px) {
+    .about-col-1 img {
+        border-radius: 5%;
+    }
+    
+    .about-col-1 img.aboutPhoto {
+        max-width: 100%;
+        max-height: 60%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}
 
 #about {
     padding: 80px 0;
@@ -229,16 +241,7 @@ nav ul li a:hover {
     margin: 1%; 
     
 }
-.about-col-1 img {
-    border-radius: 5%;
-}
 
-.about-col-1 img.aboutPhoto {
-    max-width: 100%;
-    max-height: 60%;
-    margin-left: 10%;
-    margin-top: 5%;
-}
 .about-col-2 h1 {
     margin-left: 25%;
     margin-top: 20%;
