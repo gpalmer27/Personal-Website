@@ -219,6 +219,10 @@ nav ul li a:hover {
         margin-left: 2%;
         margin-top: 5%;
     }
+    .about-col {
+        flex: 1;
+        margin: 0px; 
+    }
 }
 @media (min-width: 768px) {
     .about-col img {
@@ -231,17 +235,16 @@ nav ul li a:hover {
         margin-left: 20%;
         margin-top: 15%;
     }
+    .about-col {
+        flex: 1;
+        margin: -20px; 
+    }
 }
 
 #about .container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.about-col {
-    flex: 1;
-    margin: -20px; 
 }
 
 #about {
