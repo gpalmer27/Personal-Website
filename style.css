@@ -214,8 +214,8 @@ nav ul li a:hover {
     }
     
     .about-col img.aboutPhoto {
-        max-width: 60%;
-        max-height: 30%;
+        max-width: 100%;
+        height: auto;
         margin-left: 2%;
         margin-top: 5%;
     }
