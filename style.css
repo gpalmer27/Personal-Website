@@ -209,8 +209,8 @@ nav ul li a:hover {
 @media (max-width: 767px) {
     .about-col img {
         border-radius: 5%;
-        max-width: 60%;
-        max-height: 30%;
+        max-width: 100%;
+        height: auto;
     }
     
     .about-col img.aboutPhoto {
@@ -236,6 +236,7 @@ nav ul li a:hover {
 #about .container {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .about-col {
