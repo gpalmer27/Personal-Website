@@ -217,10 +217,10 @@ nav ul li a:hover {
         max-width: 100%;
         height: auto;
         margin-left: 2%;
-        margin-top: 5%;
+        margin-top: 5%
     }
     .about-col {
-        margin: 5px; 
+        margin: -10px; 
     }
 }
 @media (min-width: 768px) {
