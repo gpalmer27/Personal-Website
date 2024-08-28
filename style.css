@@ -229,6 +229,14 @@ nav ul li a:hover {
         padding-left: 5%;
         padding-bottom: 2%;
     }
+    .resumeButton {
+        color: black;
+        background-color: #ccc9cd;
+        width: 150px;
+        height: 30px;
+        border-radius: 50px;
+        margin-left: 5%;
+    }
 }
 @media (min-width: 768px) {
     .about-col img {
@@ -251,6 +259,14 @@ nav ul li a:hover {
         padding-right: 1%;
         padding-left: 2%;
         padding-bottom: 2%;
+    }
+    .resumeButton {
+        color: black;
+        background-color: #ccc9cd;
+        width: 150px;
+        height: 30px;
+        border-radius: 50px;
+        margin-left: 2%;
     }
 }
 
@@ -284,14 +300,7 @@ nav ul li a:hover {
 .about-col a:hover {
     color: white;
 }
-.resumeButton {
-    color: black;
-    background-color: #ccc9cd;
-    width: 150px;
-    height: 30px;
-    border-radius: 50px;
-    margin-left: 2%;
-}
+
 
 /* ---------- projects ---------- */
 #projects, #experience {
