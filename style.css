@@ -222,6 +222,13 @@ nav ul li a:hover {
     .about-col {
         margin: -10px; 
     }
+    .about-col p {
+        padding-top: 2%;
+        font-size: 130%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 2%;
+    }
 }
 @media (min-width: 768px) {
     .about-col img {
@@ -237,6 +244,13 @@ nav ul li a:hover {
     .about-col {
         flex: 1;
         margin: -20px; 
+    }
+    .about-col p {
+        padding-top: 2%;
+        font-size: 130%;
+        padding-right: 1%;
+        padding-left: 2%;
+        padding-bottom: 2%;
     }
 }
 
@@ -260,13 +274,6 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-.about-col p {
-    padding-top: 2%;
-    font-size: 130%;
-    padding-right: 1%;
-    padding-left: 2%;
-    padding-bottom: 2%;
 }
 
 .about-col a {
