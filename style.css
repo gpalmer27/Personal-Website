@@ -342,7 +342,7 @@ nav ul li a:hover {
 
 .laundryGithubButton, .laundryDemoButton, .mazeGithubButton, .mazeDemoButton,
 .carverDemoButton, .carverGithubButton, .beanpotDemoButton, .beanpotGithubButton, 
-.beanpotSlidesButton, .stockDemoButton, .stockGithubButton {
+.beanpotSlidesButton, .stockDemoButton, .stockGithubButton, .checklistGithubButton, .checklistDemoButton {
     color: black;
     background-color: #ccc9cd;
     width: 150px;
@@ -354,7 +354,7 @@ nav ul li a:hover {
 .mazeGithubButton a, .mazeDemoButton a,
 .carverGithubButton a, .carverDemoButton a,
 .beanpotGithubButton a, .beanpotDemoButton a, .beanpotSlidesButton a, 
-.stockGithubButton a, .stockDemoButton a {
+.stockGithubButton a, .stockDemoButton a, .checklistDemoButton a, .checklistGithubButton a {
     color: black;
     text-decoration: none;
     font-size: 15px;
@@ -363,6 +363,6 @@ nav ul li a:hover {
 .mazeGithubButton a:hover, .mazeDemoButton a:hover,
 .carverGithubButton a:hover, .carverDemoButton a:hover,
 .beanpotGithubButton a:hover, .beanpotDemoButton a:hover, .beanpotSlidesButton a:hover,
-.stockDemoButton a:hover, .stockGithubButton a:hover {
+.stockDemoButton a:hover, .stockGithubButton a:hover, .checklistDemoButton a:hover, .checklistGithubButton a:hover {
     color: rgb(255, 255, 255);
 }
