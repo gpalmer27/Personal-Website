@@ -240,13 +240,13 @@ nav ul li a:hover {
 }
 @media (min-width: 768px) {
     .about-col img {
-        border-radius: 50%;
+        border-radius: 10%;
     }
     
     .about-col img.aboutPhoto {
         max-width: 100%;
-        max-height: 50%;
-        margin-left: 20%;
+        max-height: 40%;
+        margin-left: 25%;
         margin-top: 15%;
     }
     .about-col {
@@ -273,7 +273,7 @@ nav ul li a:hover {
 #about .container {
     display: flex;
     align-items: center;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column; 
 }
 
 #about {
